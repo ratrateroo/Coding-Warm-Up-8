@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    background-color: black;
+
 }
 
 .logo {
@@ -16,5 +16,34 @@ body {
     background-size: cover;
     transform: translate(-50%, -50%) rotateX(45deg) rotateZ(-45deg);
     transform-style: preserve-3d;
+    background-color: black;
+
+}
+
+.logo:before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background: #ccc;
+    transform-origin: top;
+    transform: skewX(-45deg) scale(1);
+    transition: 0.5s;
+
+}
+
+.logo:after {
+    content: '';
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    background: #999;
+    transform-origin: left;
+    transform: skewY(-45deg) scale(1);
+    transition: 0.5s;
 
 }
