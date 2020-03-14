@@ -12,6 +12,7 @@
 
 html {
     font-family: sans-serif;
+    height: 100%;
 }
 
 /* Remove default padding */
@@ -44,6 +45,7 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    height:100%;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -85,3 +87,21 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+#root {
+    display: grid;
+    grid-template-rows: 2rem auto 2rem;
+    grid-template-areas: "header"
+                         "main-area"
+                         "footer";
+    height: 100%;
+    
+}
+
+
+
+.main-area {
+    grid-area: main-area;
+}
+
+

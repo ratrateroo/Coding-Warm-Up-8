@@ -14,3 +14,8 @@
     --MachaGreen: #384001;
     --GrassyGreen: #849609;
 }
+
+.footer {
+    grid-area: footer;
+    background-color: greenyellow;
+}
