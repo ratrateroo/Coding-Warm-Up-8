@@ -20,10 +20,11 @@
     display: flex;
     justify-content: center;
     
+    
 }
 .main-navigation .nav-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .main-navigation .nav-link {
@@ -32,5 +33,6 @@
 .main-navigation .nav-link-item {
     text-decoration: none;
     color: black;
-    font-size: 100%;
+    font-size: 1rem;
+    font-weight: bold;
 }
