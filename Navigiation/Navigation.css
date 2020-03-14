@@ -14,3 +14,23 @@
     --MachaGreen: #384001;
     --GrassyGreen: #849609;
 }
+
+.main-navigation {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-navigation .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-navigation .nav-link {
+    margin: 0 0.3rem;
+}
+.main-navigation .nav-link-item {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
