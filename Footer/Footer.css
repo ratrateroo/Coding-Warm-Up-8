@@ -17,5 +17,8 @@
 
 .footer {
     grid-area: footer;
-    background-color: greenyellow;
-}
+    background-color: var(--Midnight);
+    color: white;
+    }
+
+ 
