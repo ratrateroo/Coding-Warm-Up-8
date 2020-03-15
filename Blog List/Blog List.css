@@ -1,0 +1,10 @@
+.blog-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.blogs {
+    padding: 1rem;
+    background-color: violet;
+}
