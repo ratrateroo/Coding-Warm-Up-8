@@ -19,6 +19,14 @@
     grid-area: footer;
     background-color: var(--Midnight);
     color: white;
+    height: 2rem;
+    display: flex;
     }
+
+.footer p {
+    width: 100%;
+    line-height: 2rem;
+    text-align: center;
+}
 
  
