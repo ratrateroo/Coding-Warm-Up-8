@@ -1,10 +1,17 @@
 .blog-list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
 }
 .blogs {
     padding: 1rem;
     background-color: violet;
+    width: 100%;
+    border-spacing: 0.5rem;
 }
+
+.blogs tr {
+    color: white;
+}
+
