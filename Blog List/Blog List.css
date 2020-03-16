@@ -1,17 +1,35 @@
+table, td, tr, th, thead, tbody {
+    outline: none;
+}
 .blog-list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 100%;
+    
 }
 .blogs {
-    padding: 1rem;
-    background-color: violet;
+    padding: 0.3rem;
+    background-color: var(--color1);
     width: 100%;
-    border-spacing: 0.5rem;
+    border-spacing: 0.3rem;
+     
+}
+
+.blogs thead {
+    background-color: var(--color3);
+    font-size: 1rem;
+    
+}
+
+.blogs tbody tr {
+    color: var(--color2);
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .blogs tr {
     color: white;
+    
 }
 
