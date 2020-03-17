@@ -1,45 +1,10 @@
-table, td, tr, th, thead, tbody {
-    outline: none;
-}
-.blog-list {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    
-}
-.blogs {
-    padding: 0.3rem;
-    background-color: var(--color1);
-    width: 100%;
-    border-spacing: 0.3rem;
-     
-}
-
-.blogs thead {
-    background-color: var(--color3);
-    font-size: 1rem;
-    
-}
-
-.blogs tbody tr {
-    color: var(--color2);
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-.blogs tr {
-    color: white;
-    
-}
-
 .blogs__table {
     display: table;
     outline:none;
     padding: 0.3rem;
     background-color: var(--color1);
     width: 100%;
-    border-spacing: 0.3rem;
+    
 }
 
 .blog-row__head, .blog-row__body {
@@ -60,27 +25,20 @@ table, td, tr, th, thead, tbody {
     font-size: 0.8rem;
     font-weight: bold;
     transition: all 1s ease;
-    
-    background-color: var(--color1);
-
-}
-
-a.blog-row__body {
-    background-color: greenyellow;
-    transition: background-color 1s ease-in-out;
-}
-a.blog-row__body:hover {
-    background-color: orange;
-}
-
-
-.blog-row__body {
     text-decoration: none;
+    
+    transition: background-color 0.5s ease;
+
 }
+
+.blog-row__body:hover {
+    background-color: var(--color5);
+}
+
 
 .blog__cell {
     display: table-cell;
-    padding: 0.5rem;
+    padding: 1rem;
     outline:none;
     transition: all 2s ease;
     
