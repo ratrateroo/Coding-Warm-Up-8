@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     height: 100%;
 }
 
@@ -114,3 +114,11 @@ select {
      --color5: #2852C0;
     --color6: #98788B ;
 }
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Fonts/Montserrat-Regular.ttf");
+     
+    }

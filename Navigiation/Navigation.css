@@ -16,7 +16,7 @@
 }
 
 .main-navigation {
-    background-color: aqua;
+    background-color: var(--color5);
     display: flex;
     justify-content: center;
     

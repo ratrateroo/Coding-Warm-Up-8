@@ -21,18 +21,22 @@
 }
 
 .blog-row__body {
+    font-family: "Montserrat";
+
     color: var(--color2);
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight:normal;
     transition: all 1s ease;
     text-decoration: none;
     
-    transition: background-color 0.5s ease;
+    transition: all 0.2s ease-in;
 
 }
 
 .blog-row__body:hover {
     background-color: var(--color5);
+    color: var(--color1);
+    
 }
 
 
@@ -40,7 +44,7 @@
     display: table-cell;
     padding: 1rem;
     outline:none;
-    transition: all 2s ease;
+    
     
 }
 
