@@ -33,5 +33,59 @@ table, td, tr, th, thead, tbody {
     
 }
 
+.blogs__table {
+    display: table;
+    outline:none;
+    padding: 0.3rem;
+    background-color: var(--color1);
+    width: 100%;
+    border-spacing: 0.3rem;
+}
+
+.blog-row__head, .blog-row__body {
+    display: table-row;
+    outline:none;
+}
+
+.blog-row__head {
+
+    
+    background-color: var(--color3);
+    font-size: 1rem;
+    color: white;
+}
+
+.blog-row__body {
+    color: var(--color2);
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 1s ease;
+    
+    background-color: var(--color1);
+
+}
+
+a.blog-row__body {
+    background-color: greenyellow;
+    transition: background-color 1s ease-in-out;
+}
+a.blog-row__body:hover {
+    background-color: orange;
+}
+
+
+.blog-row__body {
+    text-decoration: none;
+}
+
+.blog__cell {
+    display: table-cell;
+    padding: 0.5rem;
+    outline:none;
+    transition: all 2s ease;
+    
+}
+
+
 
 
