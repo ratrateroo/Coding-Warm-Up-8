@@ -19,14 +19,17 @@
     grid-area: footer;
     background-color: var(--Midnight);
     color: white;
-    height: 2rem;
+    height: 4rem;
     display: flex;
+    flex-direction: column;
+    outline:none;
     }
 
 .footer p {
     width: 100%;
     line-height: 2rem;
     text-align: center;
+    outline:none;
 }
 
  
