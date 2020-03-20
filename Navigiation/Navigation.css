@@ -33,7 +33,7 @@
 }
 .main-navigation .nav-link-item {
     text-decoration: none;
-    color: black;
+    color: var(--color1);
     font-size: 0.8rem;
     font-weight: bold;
 }
