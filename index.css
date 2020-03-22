@@ -102,7 +102,7 @@ select {
 
 .main-area {
     grid-area: main-area;
-    background-color: orange;
+    background-color:var(--color1);
 }
 
 

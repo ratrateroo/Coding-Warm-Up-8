@@ -14,3 +14,48 @@
     --MachaGreen: #384001;
     --GrassyGreen: #849609;
 }
+
+.form-card {
+    font-family: "Montserrat", "sans-serif"; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form label, .form input {
+    width: 100%;
+    padding: 0 0.5rem;
+    font-weight: bold;
+    
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    
+}
+
+.form input {
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form input:focus, .form input:active {
+    outline: none;
+}
+
+.form button {
+    font-weight: bold;
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
