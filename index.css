@@ -90,7 +90,7 @@ select {
 
 #root {
     display: grid;
-    grid-template-rows: 2rem auto 4rem;
+    grid-template-rows: 2rem auto 2rem;
     grid-template-areas: "header"
                          "main-area"
                          "footer";
