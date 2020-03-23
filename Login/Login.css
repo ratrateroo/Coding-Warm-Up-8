@@ -57,5 +57,12 @@
     font-weight: bold;
     background-color: var(--color3);
     color: var(--color1);
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.form button:hover {
+    background-color: var(--color5);
+    color: var(--color2);
 }
 
