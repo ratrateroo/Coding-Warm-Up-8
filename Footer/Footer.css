@@ -19,7 +19,7 @@
     grid-area: footer;
     background-color: var(--Midnight);
     color: white;
-    height: 4rem;
+    height: 2rem;
     display: flex;
     flex-direction: column;
     outline:none;
