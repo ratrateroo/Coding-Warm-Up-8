@@ -11,3 +11,20 @@
     --Eggshell: #EAF0CE ;
     --Sheldon-Blue: #7D98A1;
 }
+
+.blogs__popular {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blog-card {
+    height: 518px;
+    width: 329px;
+}
+
+.blog-image {
+    height: 220px;
+    width: 329px;
+    background-color: burlywood;
+}
