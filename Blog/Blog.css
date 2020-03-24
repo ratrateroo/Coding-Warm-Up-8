@@ -1,16 +1,13 @@
 :root {
-    /*Veneziano Coffee Roasters*/
-    --Cream: #F6F4F2;
-    --Teal: #425664;
-    --Mocha: #C6AD8F;
-    /*Slumber*/
-    --Midnight: #051622;
-    --Ocean: #1BA098;
-    --Cappuccino: #DEB992;
-    /*Copie de Copie de eet*/
-    --AshFall: #8C8474;
-    --VolcanicRock: #272425;
-    --CreamyWhite: #F3F5D8;
-    --MachaGreen: #384001;
-    --GrassyGreen: #849609;
+    --Cadet-Blue: #51A3A3;
+    --Aztec-Gold: #CB904D;
+    --Deep-Space-Sparcle: #466362;
+    --Straw: #DFCC74;
+    --Medium-Spring-Bud: #C3E991;
+
+    --Charlston-Green: #2D2D2A ;
+    --Honeydew: #F1F7EE ;
+    --English-Green: #19535F ;
+    --Eggshell: #EAF0CE ;
+    --Sheldon-Blue: #7D98A1;
 }
