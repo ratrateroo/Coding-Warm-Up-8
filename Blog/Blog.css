@@ -12,14 +12,22 @@
     --Sheldon-Blue: #7D98A1;
 }
 
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .blogs__popular, .blogs__newposts {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 100vw;
 }
 
 .blog-card {
-    height: 518px;
     width: 329px;
 }
 
