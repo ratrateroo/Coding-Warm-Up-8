@@ -12,7 +12,7 @@
     --Sheldon-Blue: #7D98A1;
 }
 
-.blogs__popular {
+.blogs__popular, .blogs__newposts {
     display: flex;
     justify-content: center;
     align-items: flex-start;
