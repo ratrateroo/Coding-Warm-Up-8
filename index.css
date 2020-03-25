@@ -12,7 +12,7 @@
 
 html {
     font-family: "Montserrat", sans-serif;
-    height: 100%;
+    
 }
 
 /* Remove default padding */
@@ -103,6 +103,7 @@ select {
 .main-area {
     grid-area: main-area;
     background-color:var(--color1);
+    height: 100%;
 }
 
 

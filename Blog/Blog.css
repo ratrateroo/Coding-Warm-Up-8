@@ -22,14 +22,30 @@
 .blogs__popular, .blogs__newposts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 100vw;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.blogs__popular h2, .blogs__newposts h2 {
+    margin-left: 1rem;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .blog-card {
     width: 329px;
 }
+
+
+
 
 .blog-image {
     height: 220px;
