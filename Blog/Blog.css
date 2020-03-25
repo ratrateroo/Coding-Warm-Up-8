@@ -28,3 +28,40 @@
     width: 329px;
     background-color: burlywood;
 }
+
+.blog-title {
+    height: 77px;
+    width: 329px;
+    background-color: gray;
+}
+
+.blog-content {
+    height: 102px;
+    width: 329px;
+    background-color: plum;
+}
+
+.blog-author {
+    height: 24px;
+    width: 329px;
+    background-color: blueviolet;
+}
+
+.blog-date {
+    height: 27px;
+    width: 329px;
+    background-color: gold;
+}
+
+.blog-status {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    width: 329px;
+    background-color: pink;
+}
+
+.blog-status .likes, .blog-status .comments {
+    width: 66px;
+    height: 24px;
+}
