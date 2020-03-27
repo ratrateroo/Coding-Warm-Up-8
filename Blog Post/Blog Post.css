@@ -1,0 +1,39 @@
+:root {
+    --Cadet-Blue: #51A3A3;
+    --Aztec-Gold: #CB904D;
+    --Deep-Space-Sparcle: #466362;
+    --Straw: #DFCC74;
+    --Medium-Spring-Bud: #C3E991;
+
+    --Charlston-Green: #2D2D2A ;
+    --Honeydew: #F1F7EE ;
+    --English-Green: #19535F ;
+    --Eggshell: #EAF0CE ;
+    --Sheldon-Blue: #7D98A1;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__card {
+    width: 70%;
+}
+
+.blog-post__title p, .blog-post__author p{
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.blog-post__title p {
+    width: 60%;
+    text-align: center;
+}
+.blog-post__content p{
+text-align: justify;
+text-indent: 50px;
+line-height: 24px;
+}
