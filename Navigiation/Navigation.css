@@ -16,7 +16,7 @@
 }
 
 .main-navigation {
-    background-color: var(--color5);
+    background-color: var(--English-Green);
     display: flex;
     justify-content: center;
     
@@ -27,9 +27,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 32px;
 }
 .main-navigation .nav-link {
     margin: 0 0.3rem;
+}
+
+.main-navigation .nav-link .active {
+    color: var(--Aztec-Gold);
 }
 .main-navigation .nav-link-item {
     text-decoration: none;
