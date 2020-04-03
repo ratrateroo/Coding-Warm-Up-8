@@ -51,6 +51,18 @@
     height: 220px;
     width: 329px;
     background-color: burlywood;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.blog-image .image-container {
+   
+   width: 100%;
+}
+
+.blog-image .image-container img{
+    display: block;  
 }
 
 .blog-title {
