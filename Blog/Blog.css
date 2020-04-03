@@ -83,12 +83,27 @@
     height: 102px;
     width: 329px;
     background-color: plum;
+    overflow: hidden;
+}
+
+.blog-content p{
+    font-family: "Montserrat";
+    padding: 0.3rem 0.5rem;
+    text-align: justify;
+    line-height: 24px;
 }
 
 .blog-author {
     height: 24px;
     width: 329px;
     background-color: blueviolet;
+}
+.blog-author h3 {
+    font-family: "Rockwell";
+    font-style: italic;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 0.5rem;
 }
 
 .blog-date {
