@@ -148,6 +148,16 @@
 }
 
 .blog-status .likes, .blog-status .comments {
+    display: flex;
     width: 66px;
     height: 24px;
+}
+
+.blog-date svg {
+    
+    height: 100%;
+}
+
+.blog-status__likes-icon, .blog-status__comments-icon {
+    height: 100%;
 }
