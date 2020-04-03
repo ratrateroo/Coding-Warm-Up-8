@@ -138,6 +138,10 @@ select {
 
 @font-face {
     font-family: "Montserrat";
-    src: url("./Fonts/Montserrat-Regular.ttf");
-     
+    src: url("./Fonts/Montserrat-Regular.ttf");     
     }
+
+    @font-face {
+        font-family: "Muli";
+        src: url("./Fonts/Muli-Regular.ttf");     
+        }
