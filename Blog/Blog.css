@@ -44,6 +44,7 @@
 .blog-card {
     width: 329px;
     background-color: var(--Honeydew);
+    box-shadow: 5px 5px 10px 1px gray;
 }
 
 

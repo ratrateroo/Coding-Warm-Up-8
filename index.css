@@ -104,7 +104,7 @@ select {
 
 .main-area {
     grid-area: main-area;
-    background-color:var(--color1);
+    background-color: white;
     height: 100%;
 }
 
