@@ -1,15 +1,40 @@
+:root {
+
+    --Cadet-Blue: #51A3A3;
+    --Aztec-Gold: #CB904D;
+    --Deep-Space-Sparcle: #466362;
+    --Straw: #DFCC74;
+    --Medium-Spring-Bud: #C3E991;
+
+    --Charlston-Green: #2D2D2A;
+    --Honeydew: #F1F7EE;
+    --English-Green: #19535F;
+    --Eggshell: #EAF0CE;
+    --Sheldon-Blue: #7D98A1;
+
+    --Dark-Smoke: #707070;
+    --Red-Wine: #E92424;
+}
+
+.blog-list {
+    background-color: var(--Honeydew);
+    height: 100%;
+}
+
 .blogs__table {
     display: table;
     outline:none;
     padding: 0.3rem;
-    background-color: var(--color1);
+    background-color: var(--Honeydew);
     width: 100%;
+    
     
 }
 
 .blog-row__head, .blog-row__body {
     display: table-row;
     outline:none;
+   
 }
 
 .blog-row__head {
@@ -30,19 +55,17 @@
     text-decoration: none;
     
     transition: all 0.2s ease-in;
+    height: 32px;
+    width: 100%;
+   margin-top: 5px;
 
 }
 
-.blog-row__body:hover {
-    background-color: var(--color5);
-    color: var(--color1);
-    
-}
+
 
 
 .blog__cell {
     display: table-cell;
-    padding: 1rem;
     outline:none;    
 }
 
