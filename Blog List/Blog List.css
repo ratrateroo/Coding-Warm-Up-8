@@ -43,11 +43,23 @@
 .blog__cell {
     display: table-cell;
     padding: 1rem;
-    outline:none;
-    
-    
+    outline:none;    
 }
 
+.edit-blog-button, .delete-blog-button {
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0 0.3rem;
+}
+
+.edit-blog-button {
+    background-color: var(--Medium-Spring-Bud);
+}
+
+.delete-blog-button {
+    background-color: var(--Red-Wine);
+}
 
 
 
