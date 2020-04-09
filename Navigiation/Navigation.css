@@ -29,8 +29,17 @@
     align-items: center;
     height: 32px;
 }
+
+.main-navigation .active {
+    color: var(--Aztec-Gold);
+}
+
 .main-navigation .nav-link {
     margin: 0 0.3rem;
+}
+
+.main-navigation .nav-link a{
+    font-size: 24px;
 }
 
 .main-navigation .nav-link .active {
