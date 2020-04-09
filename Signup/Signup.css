@@ -73,6 +73,8 @@
 
 .form-inputs input {
     height: 24px;
+    border-radius: 0.3rem;
+    border: 1px solid var(--Dark-Smoke);
 }
 
 .form-inputs input:focus {
@@ -94,6 +96,7 @@
     border: none;
     border-radius: 10px;
     border: 1px solid var(--Dark-Smoke);
+    font-weight: bold;
 }
 
 

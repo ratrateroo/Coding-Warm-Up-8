@@ -1,68 +1,104 @@
 :root {
-    /*Veneziano Coffee Roasters*/
-    --Cream: #F6F4F2;
-    --Teal: #425664;
-    --Mocha: #C6AD8F;
-    /*Slumber*/
-    --Midnight: #051622;
-    --Ocean: #1BA098;
-    --Cappuccino: #DEB992;
-    /*Copie de Copie de eet*/
-    --AshFall: #8C8474;
-    --VolcanicRock: #272425;
-    --CreamyWhite: #F3F5D8;
-    --MachaGreen: #384001;
-    --GrassyGreen: #849609;
+    --Cadet-Blue: #51A3A3;
+    --Aztec-Gold: #CB904D;
+    --Deep-Space-Sparcle: #466362;
+    --Straw: #DFCC74;
+    --Medium-Spring-Bud: #C3E991;
+
+    --Charlston-Green: #2D2D2A;
+    --Honeydew: #F1F7EE;
+    --English-Green: #19535F;
+    --Eggshell: #EAF0CE;
+    --Sheldon-Blue: #7D98A1;
+
+    --Dark-Smoke: #707070;
+    --Red-Wine: #E92424;
+}
+
+.form-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-card {
-    font-family: "Montserrat", "sans-serif"; 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.form {
+    height: 300px;
+    width: 600px;
+    background-color: var(--Eggshell);
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid var(--Dark-Smoke);
 }
 
-.form label, .form input {
+.form-card__head {
     width: 100%;
-    padding: 0 0.5rem;
-    font-weight: bold;
-    
 }
 
-.form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    
+.form-card__head h2 {
+    font-size: 32px;
+    text-align: center;
+    color: var(--Aztec-Gold);
 }
 
-.form input {
+.form-card__body {
+    width: 100%;
+}
+
+.form-card__body .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inputs {
+    height: 66px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+}
+
+.form-inputs label {
+    font-size: 20px;
+    color: var(--Sheldon-Blue);
+    line-height: 24px;
+    width: 100%;
+}
+
+.form-inputs input {
+    height: 24px;
+    border-radius: 0.3rem;
+    border: 1px solid var(--Dark-Smoke);
+}
+
+.form-inputs input:focus {
+    background-color: var(--Medium-Spring-Bud);
     border: none;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
-.form input:focus, .form input:active {
-    outline: none;
+.form-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+
 }
 
-.form button {
-    font-weight: bold;
-    background-color: var(--color3);
-    color: var(--color1);
+.form-card__body .form .button {
+    width: 160px;
+    height: 40px;
+    background-color: var(--Cadet-Blue);
     border: none;
-    transition: all 0.5s ease;
+    border-radius: 10px;
+    border: 1px solid var(--Dark-Smoke);
+    font-weight: bold;
 }
 
-.form button:hover {
-    background-color: var(--color5);
-    color: var(--color2);
-}
+
+
 
