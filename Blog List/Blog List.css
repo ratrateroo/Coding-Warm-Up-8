@@ -17,6 +17,88 @@
 }
 
 .blog-list {
+    display: flex;
+    justify-content: center;
+}
+
+.blogs__table {
+    display: table;
+    outline:none;
+    
+    background-color: var(--Honeydew);
+    width: 1088px;
+    
+    
+}
+
+.blog-row__head, .blog-row__body {
+    display: table-row;
+   
+}
+
+.blog-row__head {
+    height: 32px;
+    width: 1088px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Cadet-Blue);
+}
+
+.blog-row__head .blog__cell {
+    color: white;
+    text-align: center;
+
+}
+
+.blog__cell {
+    height: 32px;
+    line-height: 32px;
+    font-weight: 16px;
+}
+
+.blog__cell.blog-number {    
+    width: 76px;
+}
+
+.blog__cell.blog-title {
+    width: 260px;
+}
+
+.blog__cell.blog-category {
+    width: 168px;
+}
+.blog__cell.blog-author {
+    width: 168px;
+}
+.blog__cell.blog-created {
+    width: 76px;
+}
+.blog__cell.blog-updated {
+    width: 76px;
+}
+.blog__cell.blog-actions {
+    width: 168px;
+}
+/* 
+:root {
+
+    --Cadet-Blue: #51A3A3;
+    --Aztec-Gold: #CB904D;
+    --Deep-Space-Sparcle: #466362;
+    --Straw: #DFCC74;
+    --Medium-Spring-Bud: #C3E991;
+
+    --Charlston-Green: #2D2D2A;
+    --Honeydew: #F1F7EE;
+    --English-Green: #19535F;
+    --Eggshell: #EAF0CE;
+    --Sheldon-Blue: #7D98A1;
+
+    --Dark-Smoke: #707070;
+    --Red-Wine: #E92424;
+}
+
+.blog-list {
     background-color: var(--Honeydew);
     height: 100%;
 }
@@ -85,4 +167,4 @@
 }
 
 
-
+ */
