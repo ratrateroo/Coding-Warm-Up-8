@@ -19,16 +19,16 @@
 .blog-list {
     display: flex;
     justify-content: center;
+    background-color: var(--Honeydew);
 }
 
 .blogs__table {
     display: table;
-    outline:none;
-    
-    background-color: var(--Honeydew);
-    width: 1088px;
-    
-    
+    width: 1088px;    
+}
+
+.blogs__table a {
+    text-decoration: none;
 }
 
 .blog-row__head, .blog-row__body {
@@ -44,10 +44,31 @@
     background-color: var(--Cadet-Blue);
 }
 
+.blog-row__body {
+    height: 32px;
+    width: 1088px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.blog-row__body:hover {
+    background-color: var(--Sheldon-Blue);
+}
+
+.blog-row__body:hover .blog__cell {
+    color: white;
+}
+
 .blog-row__head .blog__cell {
     color: white;
     text-align: center;
+}
 
+.blog-row__body .blog__cell {
+    color: var(--Charlston-Green);
+    text-align: center;
 }
 
 .blog__cell {
@@ -79,6 +100,30 @@
 .blog__cell.blog-actions {
     width: 168px;
 }
+
+.blog__cell.blog-actions {
+    width: 168px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog__cell.blog-actions span {
+    display: inline-block;
+    height: 30px;
+    width: 76px;
+    border-radius: 10px;
+    border: 1px solid var(--Dark-Smoke);
+}
+
+.edit-blog-button {
+    background-color: var(--Medium-Spring-Bud);
+}
+
+.delete-blog-button {
+    background-color: var(--Red-Wine);
+}
+
+
 /* 
 :root {
 
