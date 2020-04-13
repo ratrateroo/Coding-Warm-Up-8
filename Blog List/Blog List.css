@@ -24,7 +24,7 @@
 
 .blogs__table {
     display: table;
-    width: 1088px;    
+    width: 80%;    
 }
 
 .blogs__table a {
@@ -38,7 +38,7 @@
 
 .blog-row__head {
     height: 32px;
-    width: 1088px;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     background-color: var(--Cadet-Blue);
@@ -46,7 +46,7 @@
 
 .blog-row__body {
     height: 32px;
-    width: 1088px;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     background-color: white;
