@@ -38,7 +38,7 @@
 
 .blog-row__head {
     height: 32px;
-    width: 80%;
+    width: 68rem;
     display: flex;
     justify-content: space-around;
     background-color: var(--Cadet-Blue);
@@ -46,7 +46,7 @@
 
 .blog-row__body {
     height: 32px;
-    width: 80%;
+    width: 68rem;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -78,31 +78,41 @@
 }
 
 .blog__cell.blog-number {    
-    width: 76px;
+    /* width: 76px; */
+    width: 7%;
 }
 
 .blog__cell.blog-title {
     width: 260px;
+    /* width: 24%; */
 }
 
 .blog__cell.blog-category {
     width: 168px;
+    /* width: 15%; */
 }
 .blog__cell.blog-author {
-    width: 168px;
+    /* width: 168px; */
+    width: 15%;
 }
 .blog__cell.blog-created {
-    width: 76px;
+     /* width: 76px; */
+     width: 168px;
+    /* width: 15%; */
 }
 .blog__cell.blog-updated {
-    width: 76px;
+     /* width: 76px; */
+     width: 168px;
+    /* width: 15%; */
 }
 .blog__cell.blog-actions {
     width: 168px;
+    /* width: 15%; */
 }
 
 .blog__cell.blog-actions {
     width: 168px;
+    /* width: 15%; */
     display: flex;
     justify-content: space-around;
 }
