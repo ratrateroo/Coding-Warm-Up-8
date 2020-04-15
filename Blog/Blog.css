@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    margin: 0 auto;
 }
 
 .blogs__popular, .blogs__newposts {
@@ -43,7 +44,8 @@
 }
 
 .blog-card {
-    width: 329px;
+    /* width: 329px; */
+    width: 30%;
     background-color: var(--Honeydew);
     box-shadow: 5px 5px 10px 1px gray;
 }

@@ -20,6 +20,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--Honeydew);
+    height: 100%;
 }
 
 .blogs__table {
