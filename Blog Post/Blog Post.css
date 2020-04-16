@@ -38,32 +38,33 @@ text-indent: 50px;
 line-height: 24px;
 }
 
-.blog-date {
+.blog-post__date {
     display: flex;
     height: 24px;
-    width: 313px;
-    margin: 8px;
+    margin-top: 32px;
 }
-.blog-date__icon {
+.blog-post__date-icon {
     height: 100%;    
 }
 
 
 
-.blog-date__complete-date h3{
+.blog-post__date-complete h3{
     color: var(--English-Green);
     font-family: "Montserrat";
     font-size: 20px;
-    line-height: 27px;
+    line-height: 24px;
     padding-left: 0.3rem;
 }
 
 
 
-.blog-date svg {
+.blog-post__date-icon svg {
     fill: var(--English-Green);
     height: 100%;
 }
+
+
 
 .comment__card {
     margin: 2rem 0;
