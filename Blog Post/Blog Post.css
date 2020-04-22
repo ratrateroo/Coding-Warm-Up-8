@@ -79,6 +79,14 @@ line-height: 24px;
     text-align: center;
 }
 
+.comments-form {
+    margin-bottom: 50px;
+}
+
+.comment-item {
+    margin-bottom: 40px;
+}
+
 .comment__message {     
     margin-top: 64px;     
 }
