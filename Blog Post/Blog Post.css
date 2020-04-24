@@ -111,12 +111,21 @@ line-height: 24px;
     border-radius: 10px;
 }
 
+.comment-item__message {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: var(--Cadet-Blue);
+    text-align: justify;
+    text-indent: 50px;
+}
+
 .comment-item__details {
     display: flex;
     justify-content: flex-end;
+    height: 24px;
 }
 
-.comment-item__details div {
+.comment-item__details>div {
     margin-left: 5rem;
 }
 
@@ -125,11 +134,36 @@ display: flex;
 justify-content: center;
 }
 
+.comment-author__name h3, .comment-date__date h3 {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.comment-author__name h3 {
+    color: var(--Medium-Spring-Bud);
+}
+
+.comment-date__date h3 {
+    color: var(--Sheldon-Blue);
+}
+
 .comment-author__icon svg ,.comment-date__icon svg {
+    height: 12px;
+    width: 12px;
+}
+
+.comment-author__icon,.comment-date__icon {
     height: 24px;
     width: 24px;
 }
 
+.comment-author__icon svg {
+    fill: var(--Medium-Spring-Bud);
+}
+
+.comment-date__icon svg {
+    fill: var(--Sheldon-Blue);
+}
 
 
 
