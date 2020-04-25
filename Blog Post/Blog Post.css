@@ -10,6 +10,9 @@
     --English-Green: #19535F ;
     --Eggshell: #EAF0CE ;
     --Sheldon-Blue: #7D98A1;
+
+    --Dark-Smoke: #707070;
+    --Red-Wine: #E92424;
 }
 
 .blog-post {
@@ -107,8 +110,11 @@ line-height: 24px;
     width: 329px;
     font-family: "Montserrat";
     font-weight: bold;
-    border: 1px solid black;
+    border: 1px solid var(--Dark-Smoke);
     border-radius: 10px;
+    background-color: var(--Cadet-Blue);
+    color: white;
+
 }
 
 .comment-item__message {
