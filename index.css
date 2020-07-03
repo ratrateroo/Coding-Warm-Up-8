@@ -2,26 +2,24 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 
- /* * {
+/* * {
     outline: 1px solid red;
     background-color: rgba(0,0,255,0.1);
 }  */
 
 html {
-    font-family: "Montserrat", sans-serif;
-    outline: 1px solid greenyellow;
-    height: 100%;
-    
+  font-family: "Montserrat", sans-serif;
+  outline: 1px solid greenyellow;
+  height: 100%;
 }
 
 /* Remove default padding */
 ul[class],
 ol[class] {
-    padding: 0;
+  padding: 0;
 }
 
 /* Remove default margin */
@@ -39,38 +37,38 @@ figcaption,
 blockquote,
 dl,
 dd {
-    margin: 0;
+  margin: 0;
 }
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    height:100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  height: 100%;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
-    list-style: none;
+  list-style: none;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-    text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Natural flow and rhythm in articles by default */
-article>*+* {
-    margin-top: 1em;
+article > * + * {
+  margin-top: 1em;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -78,7 +76,7 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them
@@ -92,57 +90,55 @@ select {
 } */
 
 #root {
-    display: grid;
-    grid-template-rows: 2rem auto 32px;
-    grid-template-areas: "header"
-                         "main-area"
-                         "footer";
-    height: 100%;
-    
+  display: grid;
+  grid-template-rows: 2rem auto 32px;
+  grid-template-areas:
+    "header"
+    "main-area"
+    "footer";
+  height: 100%;
 }
-
-
 
 .main-area {
-    grid-area: main-area;
-    background-color: white;
-    height: 100%;
+  grid-area: main-area;
+  background-color: white;
+  height: 100%;
 }
 
-
-
 :root {
-    --color1: #D3D3D9;
-    --color2: #030406;
-    --color3: #3C4457;
-    --color4: #BDB4C2;
-     --color5: #2852C0;
-    --color6: #98788B ;
+  --color1: #d3d3d9;
+  --color2: #030406;
+  --color3: #3c4457;
+  --color4: #bdb4c2;
+  --color5: #2852c0;
+  --color6: #98788b;
 
-    --Cadet-Blue: #51A3A3;
-    --Aztec-Gold: #CB904D;
-    --Deep-Space-Sparcle: #466362;
-    --Straw: #DFCC74;
-    --Medium-Spring-Bud: #C3E991;
+  --Cadet-Blue: #51a3a3;
+  --Aztec-Gold: #cb904d;
+  --Deep-Space-Sparcle: #466362;
+  --Straw: #dfcc74;
+  --Medium-Spring-Bud: #c3e991;
 
-    --Charlston-Green: #2D2D2A;
-    --Honeydew: #F1F7EE;
-    --English-Green: #19535F;
-    --Eggshell: #EAF0CE;
-    --Sheldon-Blue: #7D98A1;
+  --Charlston-Green: #2d2d2a;
+  --Honeydew: #f1f7ee;
+  --English-Green: #19535f;
+  --Eggshell: #eaf0ce;
+  --Sheldon-Blue: #7d98a1;
 
-    --Dark-Smoke: #707070;
-    --Red-Wine: #E92424;
+  --Dark-Smoke: #707070;
+  --Red-Wine: #e92424;
 }
 
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
 
-@font-face {
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Muli&display=swap");
+
+/* @font-face {
     font-family: "Montserrat";
     src: url("./Fonts/Montserrat-Regular.ttf");     
     }
 
-    @font-face {
+@font-face {
         font-family: "Muli";
         src: url("./Fonts/Muli-Regular.ttf");     
-        }
+        } */
