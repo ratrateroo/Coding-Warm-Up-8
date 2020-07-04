@@ -1,0 +1,27 @@
+:root {
+	--Cadet-Blue: #51a3a3;
+	--Aztec-Gold: #cb904d;
+	--Deep-Space-Sparcle: #466362;
+	--Straw: #dfcc74;
+	--Medium-Spring-Bud: #c3e991;
+
+	--Charlston-Green: #2d2d2a;
+	--Honeydew: #f1f7ee;
+	--English-Green: #19535f;
+	--Eggshell: #eaf0ce;
+	--Sheldon-Blue: #7d98a1;
+
+	--Dark-Smoke: #707070;
+	--Red-Wine: #e92424;
+}
+
+.user-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user-profile__content {
+	width: 80%;
+}
