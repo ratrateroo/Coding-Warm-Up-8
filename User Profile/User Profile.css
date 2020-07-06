@@ -24,5 +24,21 @@
 }
 
 .user-profile__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 80%;
+	height: 100%;
+}
+
+.user-profile__image {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+.user-profile__image img {
+	border-radius: 50%;
+	height: 100%;
 }
