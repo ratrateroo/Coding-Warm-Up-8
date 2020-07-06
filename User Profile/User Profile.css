@@ -33,12 +33,17 @@
 }
 
 .user-profile__image {
-	height: 300px;
-	width: 300px;
+	height: 336px;
+	width: 336px;
 	border-radius: 50%;
+	background-image: url('../Images/ChloeAvatar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.user-profile__image img {
-	border-radius: 50%;
-	height: 100%;
+.user-profile__info__detail-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
 }
