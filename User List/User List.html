@@ -6,7 +6,9 @@
 		<title>Component Developemnt for Blog Project</title>
 		<link rel="stylesheet" href="../index.css" />
 		<link rel="stylesheet" href="../Header/Header.css" />
-		<link rel="stylesheet" href="Navigation.css" />
+		<link rel="stylesheet" href="../Navigiation/Navigation.css" />
+		<link rel="stylesheet" href="../Footer/Footer.css" />
+		<link rel="stylesheet" href="User List.css" />
 	</head>
 
 	<body>
@@ -15,9 +17,7 @@
 				<nav class="main-navigation">
 					<ul class="nav-links">
 						<li class="nav-link">
-							<a href="../index.html" class="nav-link-item active"
-								>Link</a
-							>
+							<a href="../index.html" class="nav-link-item">Link</a>
 						</li>
 						<li class="nav-link">
 							<a href="../Blog List/Blog List.html" class="nav-link-item"
@@ -69,15 +69,29 @@
 								>User Profile</a
 							>
 						</li>
-
-						<li class="nav-link">
-							<a href="../User List/User List.html" class="nav-link-item"
-								>User List</a
-							>
-						</li>
 					</ul>
 				</nav>
 			</header>
+			<main class="main-area">
+				<section class="user-profile">
+					<div class="user-profile__content">
+						<div class="user-profile__image"></div>
+
+						<div class="user-profile__info">
+							<h2 class="user-profile__info__fullname">Daisy Johnson</h2>
+							<ul class="user-profile__info__detail-list">
+								<li class="user-profile__info__detail-item">1 Blog</li>
+								<li class="user-profile__info__detail-item">
+									2 Friends
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<p>Welcome to the Blog</p>
+			</footer>
 		</div>
 	</body>
 </html>
