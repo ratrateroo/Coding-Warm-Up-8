@@ -15,6 +15,10 @@
 	background-color: red;
 }
 
+.o-user-list__item {
+	margin-top: 1rem;
+}
+
 .c-user {
 	display: flex;
 	justify-content: start;
@@ -33,4 +37,25 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.c-user__info {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	height: 5rem;
+
+	width: 80%;
+}
+
+.c-user__fullname {
+	line-height: 2rem;
+	text-align: center;
+}
+
+.c-user__detail-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	line-height: 2rem;
 }
