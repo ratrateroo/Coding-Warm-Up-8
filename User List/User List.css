@@ -1,0 +1,36 @@
+.o-main-area {
+	grid-area: main-area;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.o-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	background-color: red;
+}
+
+.c-user {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 500px;
+	background-color: var(--Eggshell);
+	height: 6rem;
+}
+
+.c-user__avatar {
+	margin: 0.5rem;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	background-image: url('../Images/ChloeAvatar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
