@@ -14,8 +14,22 @@
 	width: 80%;
 }
 
-.o-user-list__item {
-	margin-top: 1rem;
+.user-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.user-profile__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--Eggshell);
+	width: 80%;
+	height: 90%;
 }
 
 .c-user {
@@ -51,12 +65,4 @@
 .c-user__fullname {
 	line-height: 2rem;
 	text-align: center;
-}
-
-.c-user__detail-list {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-
-	line-height: 2rem;
 }
