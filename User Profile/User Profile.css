@@ -15,6 +15,14 @@
 	--Red-Wine: #e92424;
 }
 
+.o-main-area {
+	grid-area: main-area;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
 .user-profile {
 	display: flex;
 	flex-direction: column;
