@@ -43,16 +43,39 @@
 	color: var(--Cadet-Blue);
 }
 
-.blogs__table {
+.c-blogs-table {
 	display: table;
-	width: 80%;
+	width: 100%;
 }
 
-.blogs__table a {
-	text-decoration: none;
+.c-blogs-table__header {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: var(--Cadet-Blue);
+	padding: 0.3rem 0;
 }
 
-.blog-row__head,
-.blog-row__body {
-	display: table-row;
+.c-blog-header__cell {
+	color: whitesmoke;
+	width: 20%;
+	text-align: center;
+}
+
+.c-blogs-table__row {
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--Sheldon-Blue);
+	padding: 0.3rem 0;
+	margin: 0.2rem 0;
+}
+
+.c-blogs-table__row:hover {
+	background-color: var(--Cadet-Blue);
+}
+
+.c-blog-row__cell {
+	width: 20%;
+	text-align: center;
+	color: var(--Charlston-Green);
 }
