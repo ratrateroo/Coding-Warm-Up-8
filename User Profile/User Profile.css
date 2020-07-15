@@ -23,27 +23,45 @@
 	justify-content: center;
 }
 
-.user-profile {
+.o-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 80%;
+	margin: 2rem 0;
+}
+
+.o-page-heading {
+	margin-bottom: 1rem;
+}
+
+.o-page-body {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	height: 100%;
+	background-color: var(--Eggshell);
+	border: 1px solid var(--Dark-Smoke);
+}
+
+.c-page-heading {
+	color: var(--Cadet-Blue);
+}
+
+.c-user-profile {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	width: 100%;
 }
 
-.user-profile__content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--Eggshell);
-	width: 80%;
-	height: 90%;
-}
-
-.user-profile__image {
-	height: 336px;
-	width: 336px;
+.c-user-profile__image {
+	height: 300px;
+	width: 300px;
 	border-radius: 50%;
 	background-image: url('../Images/ChloeAvatar.jpg');
 	background-size: cover;
@@ -51,11 +69,11 @@
 	background-position: center;
 }
 
-.user-profile__info {
+.c-user-profile__info {
 	margin-top: 30px;
 }
 
-.user-profile__info__fullname {
+.c-user-profile__info__fullname {
 	margin-bottom: 20px;
 	height: 30px;
 	line-height: 30px;
@@ -63,7 +81,7 @@
 	text-align: center;
 }
 
-.user-profile__info__detail-list {
+.c-user-profile__info__detail-list {
 	margin-top: 50px;
 	display: flex;
 	width: 336px;
