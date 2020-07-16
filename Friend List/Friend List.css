@@ -50,7 +50,7 @@
 	align-items: center;
 	width: 8rem;
 	height: 8rem;
-	background-color: var(--English-Green);
+	background-color: var(--Deep-Space-Sparcle);
 	border: 1px solid var(--Charlston-Green);
 }
 
@@ -72,5 +72,5 @@
 .c-mini-user__fullname {
 	font-size: 1rem;
 	text-align: center;
-	color: var(--Honeydew);
+	color: var(--Straw);
 }
