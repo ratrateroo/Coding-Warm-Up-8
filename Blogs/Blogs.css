@@ -64,6 +64,10 @@
 	border: 1px solid var(--Eggshell);
 }
 
+.c-post:hover {
+	background-color: var(--Sheldon-Blue);
+}
+
 .c-post__image {
 	display: flex;
 	width: 100%;
@@ -78,7 +82,7 @@
 .c-post__details {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: start;
 	height: 20vh;
 	padding: 1rem;
@@ -86,8 +90,10 @@
 
 .c-post__title {
 	color: var(--Eggshell);
+	font-size: 1.3rem;
 }
 
 .c-post__author {
 	color: var(--Straw);
+	font-size: 1rem;
 }
