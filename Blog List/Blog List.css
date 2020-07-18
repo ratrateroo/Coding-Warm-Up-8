@@ -1,226 +1,99 @@
-:root {
-
-    --Cadet-Blue: #51A3A3;
-    --Aztec-Gold: #CB904D;
-    --Deep-Space-Sparcle: #466362;
-    --Straw: #DFCC74;
-    --Medium-Spring-Bud: #C3E991;
-
-    --Charlston-Green: #2D2D2A;
-    --Honeydew: #F1F7EE;
-    --English-Green: #19535F;
-    --Eggshell: #EAF0CE;
-    --Sheldon-Blue: #7D98A1;
-
-    --Dark-Smoke: #707070;
-    --Red-Wine: #E92424;
+.o-main-area {
+	grid-area: main-area;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 }
 
-.blog-list {
-    display: flex;
-    justify-content: center;
-    background-color: var(--Honeydew);
-    height: 100%;
+.o-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 80%;
+	margin: 2rem 0;
 }
 
-.blogs__table {
-    display: table;
-    width: 80%;    
+.o-page-heading {
+	margin-bottom: 1rem;
 }
 
-.blogs__table a {
-    text-decoration: none;
+.o-page-body {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	height: 100%;
+	background-color: var(--Eggshell);
+	border: 1px solid var(--Dark-Smoke);
 }
 
-.blog-row__head, .blog-row__body {
-    display: table-row;
-   
+.c-page-heading {
+	color: var(--Cadet-Blue);
 }
 
-.blog-row__head {
-    height: 32px;
-    width: 68rem;
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--Cadet-Blue);
+.c-blogs-table {
+	display: table;
+	width: 100%;
 }
 
-.blog-row__body {
-    height: 32px;
-    width: 68rem;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    margin-top: 8px;
+.c-blogs-table__header {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 2rem;
+	background-color: var(--Cadet-Blue);
+	padding: 0.3rem 0;
 }
 
-.blog-row__body:hover {
-    background-color: var(--Sheldon-Blue);
+.c-blog-header__cell {
+	color: whitesmoke;
+	width: 20%;
+	text-align: center;
 }
 
-.blog-row__body:hover .blog__cell {
-    color: white;
+.c-blogs-table__row {
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--Sheldon-Blue);
+
+	margin: 0.2rem 0;
+	height: 2rem;
 }
 
-.blog-row__head .blog__cell {
-    color: white;
-    text-align: center;
+.c-blogs-table__row:hover {
+	background-color: var(--Cadet-Blue);
 }
 
-.blog-row__body .blog__cell {
-    color: var(--Charlston-Green);
-    text-align: center;
+.c-blog-row__cell {
+	width: 20%;
+	text-align: center;
+	color: var(--Charlston-Green);
+	line-height: 2rem;
+	overflow: hidden;
 }
 
-.blog__cell {
-    height: 32px;
-    line-height: 32px;
-    font-weight: 16px;
+.c-action-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 2rem;
 }
 
-.blog__cell.blog-number {    
-    /* width: 76px; */
-    width: 7%;
+.c-action-button__edit {
+	background-color: var(--English-Green);
+	color: white;
+	border-radius: 0.5rem;
+	width: 45%;
+	line-height: 1.5rem;
 }
 
-.blog__cell.blog-title {
-    width: 260px;
-    /* width: 24%; */
+.c-action-button__delete {
+	background-color: var(--Red-Wine);
+	color: white;
+	border-radius: 0.5rem;
+	width: 45%;
+	line-height: 1.5rem;
 }
-
-.blog__cell.blog-category {
-    width: 168px;
-    /* width: 15%; */
-}
-.blog__cell.blog-author {
-    /* width: 168px; */
-    width: 15%;
-}
-.blog__cell.blog-created {
-     /* width: 76px; */
-     width: 168px;
-    /* width: 15%; */
-}
-.blog__cell.blog-updated {
-     /* width: 76px; */
-     width: 168px;
-    /* width: 15%; */
-}
-.blog__cell.blog-actions {
-    width: 168px;
-    /* width: 15%; */
-}
-
-.blog__cell.blog-actions {
-    width: 168px;
-    /* width: 15%; */
-    display: flex;
-    justify-content: space-around;
-}
-
-.blog__cell.blog-actions span {
-    display: inline-block;
-    height: 30px;
-    width: 76px;
-    border-radius: 10px;
-    border: 1px solid var(--Dark-Smoke);
-}
-
-.edit-blog-button {
-    background-color: var(--Medium-Spring-Bud);
-}
-
-.delete-blog-button {
-    background-color: var(--Red-Wine);
-}
-
-
-/* 
-:root {
-
-    --Cadet-Blue: #51A3A3;
-    --Aztec-Gold: #CB904D;
-    --Deep-Space-Sparcle: #466362;
-    --Straw: #DFCC74;
-    --Medium-Spring-Bud: #C3E991;
-
-    --Charlston-Green: #2D2D2A;
-    --Honeydew: #F1F7EE;
-    --English-Green: #19535F;
-    --Eggshell: #EAF0CE;
-    --Sheldon-Blue: #7D98A1;
-
-    --Dark-Smoke: #707070;
-    --Red-Wine: #E92424;
-}
-
-.blog-list {
-    background-color: var(--Honeydew);
-    height: 100%;
-}
-
-.blogs__table {
-    display: table;
-    outline:none;
-    padding: 0.3rem;
-    background-color: var(--Honeydew);
-    width: 100%;
-    
-    
-}
-
-.blog-row__head, .blog-row__body {
-    display: table-row;
-    outline:none;
-   
-}
-
-.blog-row__head {
-
-    
-    background-color: var(--color3);
-    font-size: 1rem;
-    color: white;
-}
-
-.blog-row__body {
-    font-family: "Montserrat";
-
-    color: var(--color2);
-    font-size: 0.8rem;
-    font-weight:normal;
-    transition: all 1s ease;
-    text-decoration: none;
-    
-    transition: all 0.2s ease-in;
-    height: 32px;
-    width: 100%;
-   margin-top: 5px;
-
-}
-
-
-
-
-.blog__cell {
-    display: table-cell;
-    outline:none;    
-}
-
-.edit-blog-button, .delete-blog-button {
-    display: inline-block;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 0 0.3rem;
-}
-
-.edit-blog-button {
-    background-color: var(--Medium-Spring-Bud);
-}
-
-.delete-blog-button {
-    background-color: var(--Red-Wine);
-}
-
-
- */

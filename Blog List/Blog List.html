@@ -1,121 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Component Developemnt for Blog Project</title>
+		<link rel="stylesheet" href="../index.css" />
+		<link rel="stylesheet" href="../Header/Header.css" />
+		<link rel="stylesheet" href="../Navigiation/Navigation.css" />
+		<link rel="stylesheet" href="../Footer/Footer.css" />
+		<link rel="stylesheet" href="Blog List.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Developemnt for Blog Project</title>
-    <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="../Header/Header.css">
-    <link rel="stylesheet" href="../Navigiation/Navigation.css">
-    <link rel="stylesheet" href="../Footer/Footer.css">
-    <link rel="stylesheet" href="Blog List.css">
+	<body>
+		<div id="root">
+			<header class="header">
+				<nav class="main-navigation">
+					<ul class="nav-links">
+						<li class="nav-link">
+							<a href="../index.html" class="nav-link-item">Link</a>
+						</li>
+						<li class="nav-link">
+							<a href="../Blog List/Blog List.html" class="nav-link-item"
+								>Blog List</a
+							>
+						</li>
+						<li class="nav-link">
+							<a href="../Blog/Blog.html" class="nav-link-item">Blog</a>
+						</li>
 
-</head>
+						<li class="nav-link">
+							<a href="../Signup/Signup.html" class="nav-link-item"
+								>Sign Up</a
+							>
+						</li>
+						<li class="nav-link">
+							<a href="../Login/Login.html" class="nav-link-item"
+								>Log In</a
+							>
+						</li>
 
-<body>
-    <div id="root">
-        <header class="header">
-            <nav class="main-navigation">
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="../index.html" class="nav-link-item">Link</a></li>
-                    <li class="nav-link"><a href="../Blog List/Blog List.html" class="nav-link-item">Blog List</a></li>
-                    <li class="nav-link"><a href="../Blog/Blog.html" class="nav-link-item">Blog</a></li>
-                    <li class="nav-link"><a href="../Sidebar/Sidebar.html" class="nav-link-item">Sidebar</a></li>
-                    <li class="nav-link"><a href="../Signup/Signup.html" class="nav-link-item">Sign Up</a></li>
-                    <li class="nav-link"><a href="../Login/Login.html" class="nav-link-item">Log In</a></li>
-                    <li class="nav-link"><a href="../Logo/Logo.html" class="nav-link-item">Logo</a></li>
-                    <li class="nav-link"><a href="../Navigiation/Navigation.html" class="nav-link-item">Navigation</a>
-                    </li>
-                    <li class="nav-link"><a href="../Header/Header.html" class="nav-link-item">Header</a></li>
-                    <li class="nav-link"><a href="../Footer/Footer.html" class="nav-link-item">Footer</a></li>
-                    <li class="nav-link"><a href="../User Profile/User Profile.html" class="nav-link-item">User
-                            Profile</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main-area">
-            <h1>Blog List</h1>
-            <section class="blog-list">
+						<li class="nav-link">
+							<a
+								href="../User Blog List/User Blog List.html"
+								class="nav-link-item"
+								>User Blogs</a
+							>
+						</li>
 
+						<li class="nav-link">
+							<a
+								href="../User Profile/User Profile.html"
+								class="nav-link-item"
+								>User Profile</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main class="o-main-area">
+				<section class="o-section-container">
+					<div class="o-page-heading">
+						<h1 class="c-page-heading">Your Blog List</h1>
+					</div>
 
-                <div role="grid" class="blogs__table">
-                    <div role="row" class="blog-row__head">
-                        <div role="gridcell" class="blog__cell blog-number">Blog No.</div>
-                        <div role="gridcell" class="blog__cell blog-title">Title</div>
-                        <div role="gridcell" class="blog__cell blog-category">Category</div>
-                        <div role="gridcell" class="blog__cell blog-author">Author</div>
-                        <div role="gridcell" class="blog__cell blog-created">Created</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Updated</div>
-                        <div role="gridcell" class="blog__cell blog-actions">Actions</div>
-                    </div>
-                    <a role="row" class="blog-row__body" href="#">
+					<div class="o-page-body">
+						<div role="grid" class="c-blogs-table">
+							<div role="row" class="c-blogs-table__header">
+								<div role="gridcell" class="c-blog-header__cell">
+									Blog No.
+								</div>
+								<div role="gridcell" class="c-blog-header__cell">
+									Title
+								</div>
+								<div role="gridcell" class="c-blog-header__cell">
+									Category
+								</div>
 
+								<div role="gridcell" class="c-blog-header__cell">
+									Created
+								</div>
+								<div role="gridcell" class="c-blog-header__cell">
+									Updated
+								</div>
+								<div role="gridcell" class="c-blog-header__cell">
+									Actions
+								</div>
+							</div>
+							<a role="row" class="c-blogs-table__row" href="#">
+								<div role="gridcell" class="c-blog-row__cell">
+									01
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									The Basics of Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Javascript
+								</div>
 
-                        <div role="gridcell" class="blog__cell blog-number">01</div>
-                        <div role="gridcell" class="blog__cell blog-title">The Basics of Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-category">Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-author">Aurora Barnuts</div>
-                        <div role="gridcell" class="blog__cell blog-created">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-actions"><span class="edit-blog-button">Edit</span>
-                            <span class="delete-blog-button">Delete</span></div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									<div class="c-action-button">
+										<div class="c-action-button__edit">Edit</div>
+										<div class="c-action-button__delete">Delete</div>
+									</div>
+								</div>
+							</a>
+							<a role="row" class="c-blogs-table__row" href="#">
+								<div role="gridcell" class="c-blog-row__cell">
+									02
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									The Basics of Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Javascript
+								</div>
 
-                    </a>
-                    <a role="row" class="blog-row__body" href="#">
-                        <div role="gridcell" class="blog__cell blog-number">02</div>
-                        <div role="gridcell" class="blog__cell blog-title">The Basics of Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-category">Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-author">Aurora Barnuts</div>
-                        <div role="gridcell" class="blog__cell blog-created">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-actions"><span class="edit-blog-button">Edit</span>
-                            <span class="delete-blog-button">Delete</span></div>
-                    </a>
-                    <a role="row" class="blog-row__body" href="#">
-                        <div role="gridcell" class="blog__cell blog-number">03</div>
-                        <div role="gridcell" class="blog__cell blog-title">The Basics of Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-category">Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-author">Aurora Barnuts</div>
-                        <div role="gridcell" class="blog__cell blog-created">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-actions"><span class="edit-blog-button">Edit</span>
-                            <span class="delete-blog-button">Delete</span></div>
-                    </a>
-                    <a role="row" class="blog-row__body" href="#">
-                        <div role="gridcell" class="blog__cell blog-number">04</div>
-                        <div role="gridcell" class="blog__cell blog-title">The Basics of Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-category">Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-author">Aurora Barnuts</div>
-                        <div role="gridcell" class="blog__cell blog-created">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-actions"><span class="edit-blog-button">Edit</span>
-                            <span class="delete-blog-button">Delete</span></div>
-                    </a>
-                    <a role="row" class="blog-row__body" href="#">
-                        <div role="gridcell" class="blog__cell blog-number">05</div>
-                        <div role="gridcell" class="blog__cell blog-title">The Basics of Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-category">Javascript</div>
-                        <div role="gridcell" class="blog__cell blog-author">Aurora Barnuts</div>
-                        <div role="gridcell" class="blog__cell blog-created">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-updated">Jan-14-12</div>
-                        <div role="gridcell" class="blog__cell blog-actions"><span class="edit-blog-button">Edit</span>
-                            <span class="delete-blog-button">Delete</span></div>
-                    </a>
-                </div>
-            </section>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									<div class="c-action-button">
+										<div class="c-action-button__edit">Edit</div>
+										<div class="c-action-button__delete">Delete</div>
+									</div>
+								</div>
+							</a>
+							<a role="row" class="c-blogs-table__row" href="#">
+								<div role="gridcell" class="c-blog-row__cell">
+									03
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									The Basics of Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Javascript
+								</div>
 
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									<div class="c-action-button">
+										<div class="c-action-button__edit">Edit</div>
+										<div class="c-action-button__delete">Delete</div>
+									</div>
+								</div>
+							</a>
+							<a role="row" class="c-blogs-table__row" href="#">
+								<div role="gridcell" class="c-blog-row__cell">
+									04
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									The Basics of Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Javascript
+								</div>
 
-        </main>
-        <footer class="footer">
-            <p>Welcome to the Blog</p>
-
-        </footer>
-
-    </div>
-
-
-</body>
-
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									<div class="c-action-button">
+										<div class="c-action-button__edit">Edit</div>
+										<div class="c-action-button__delete">Delete</div>
+									</div>
+								</div>
+							</a>
+							<a role="row" class="c-blogs-table__row" href="#">
+								<div role="gridcell" class="c-blog-row__cell">
+									05
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									The Basics of Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Javascript
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									Jan-14-12
+								</div>
+								<div role="gridcell" class="c-blog-row__cell">
+									<div class="c-action-button">
+										<div class="c-action-button__edit">Edit</div>
+										<div class="c-action-button__delete">Delete</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<p>Welcome to the Blog</p>
+			</footer>
+		</div>
+	</body>
 </html>
