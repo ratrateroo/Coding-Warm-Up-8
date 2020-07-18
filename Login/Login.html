@@ -1,76 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Component Developemnt for Blog Project</title>
+		<link rel="stylesheet" href="../index.css" />
+		<link rel="stylesheet" href="../Header/Header.css" />
+		<link rel="stylesheet" href="../Navigiation/Navigation.css" />
+		<link rel="stylesheet" href="../Footer/Footer.css" />
+		<link rel="stylesheet" href="Login.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Developemnt for Blog Project</title>
-    <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="../Header/Header.css">
-    <link rel="stylesheet" href="../Navigiation/Navigation.css">
-    <link rel="stylesheet" href="../Footer/Footer.css">
-    <link rel="stylesheet" href="Login.css">
+	<body>
+		<div id="root">
+			<header class="header">
+				<nav class="main-navigation">
+					<ul class="nav-links">
+						<li class="nav-link">
+							<a href="../index.html" class="nav-link-item">Link</a>
+						</li>
+						<li class="nav-link">
+							<a href="../Blog List/Blog List.html" class="nav-link-item"
+								>Blog List</a
+							>
+						</li>
+						<li class="nav-link">
+							<a href="../Blog/Blog.html" class="nav-link-item">Blog</a>
+						</li>
 
-</head>
+						<li class="nav-link">
+							<a href="../Signup/Signup.html" class="nav-link-item"
+								>Sign Up</a
+							>
+						</li>
+						<li class="nav-link">
+							<a href="../Login/Login.html" class="nav-link-item"
+								>Log In</a
+							>
+						</li>
 
-<body>
-    <div id="root">
-        <header class="header">
-            <nav class="main-navigation">
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="../index.html" class="nav-link-item">Link</a></li>
-                    <li class="nav-link"><a href="../Blog List/Blog List.html" class="nav-link-item">Blog List</a></li>
-                    <li class="nav-link"><a href="../Blog/Blog.html" class="nav-link-item">Blog</a></li>
-                    <li class="nav-link"><a href="../Sidebar/Sidebar.html" class="nav-link-item">Sidebar</a></li>
-                    <li class="nav-link"><a href="../Signup/Signup.html" class="nav-link-item">Sign Up</a></li>
-                    <li class="nav-link"><a href="../Login/Login.html" class="nav-link-item active">Log In</a></li>
-                    <li class="nav-link"><a href="../Logo/Logo.html" class="nav-link-item">Logo</a></li>
-                    <li class="nav-link"><a href="../Navigiation/Navigation.html" class="nav-link-item">Navigation</a>
-                    </li>
-                    <li class="nav-link"><a href="../Header/Header.html" class="nav-link-item">Header</a></li>
-                    <li class="nav-link"><a href="../Footer/Footer.html" class="nav-link-item">Footer</a></li>
-                    <li class="nav-link"><a href="../User Profile/User Profile.html" class="nav-link-item">User
-                            Profile</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main-area">
+						<li class="nav-link">
+							<a
+								href="../User Blog List/User Blog List.html"
+								class="nav-link-item"
+								>User Blogs</a
+							>
+						</li>
 
-            <section class="form-section">
-                <div class="form-card">
-                    <div class="form-card__head">
-                        <h2>User Log In</h2>
-                    </div>
-                    <div class="form-card__body">
-                        <form action="" class="form signup-form">
-                            <div class="form-inputs">
-                                <label for="username">Username</label>
-                                <input type="text" id="username" required>
-                            </div>
+						<li class="nav-link">
+							<a
+								href="../User Profile/User Profile.html"
+								class="nav-link-item"
+								>User Profile</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main class="o-main-area">
+				<section class="o-section-container">
+					<div class="o-page-heading">
+						<h1 class="c-page-heading">User Log In</h1>
+					</div>
 
+					<div class="o-page-body">
+						<div class="c-form">
+							<form action="" class="c-form__body">
+								<div class="c-form-input">
+									<label class="c-form-input__label" for="username"
+										>Username</label
+									>
+									<input
+										class="c-form-input__data"
+										type="text"
+										id="username"
+										required
+									/>
+								</div>
 
-                            <div class="form-inputs">
-                                <label for="password">Password</label>
-                                <input type="password" id="password" required>
-                            </div>
+								<div class="c-form-input">
+									<label class="c-form-input__label" for="password"
+										>Password</label
+									>
+									<input
+										class="c-form-input__data"
+										type="password"
+										id="password"
+										required
+									/>
+								</div>
 
-
-                            <div class="form-button">
-                                <button type="submit" class="button">Log In</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <p>Welcome to the Blog</p>
-        </footer>
-
-    </div>
-
-
-</body>
-
+								<div class="c-form-button">
+									<button
+										class="c-form-button__submit"
+										type="submit"
+										class="button"
+									>
+										Log In
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<p>Welcome to the Blog</p>
+			</footer>
+		</div>
+	</body>
 </html>

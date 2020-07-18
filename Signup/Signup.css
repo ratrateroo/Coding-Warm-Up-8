@@ -1,117 +1,3 @@
-:root {
-	--Cadet-Blue: #51a3a3;
-	--Aztec-Gold: #cb904d;
-	--Deep-Space-Sparcle: #466362;
-	--Straw: #dfcc74;
-	--Medium-Spring-Bud: #c3e991;
-
-	--Charlston-Green: #2d2d2a;
-	--Honeydew: #f1f7ee;
-	--English-Green: #19535f;
-	--Eggshell: #eaf0ce;
-	--Sheldon-Blue: #7d98a1;
-
-	--Dark-Smoke: #707070;
-	--Red-Wine: #e92424;
-}
-
-.form-section {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.form-card {
-	height: 440px;
-	width: 414px;
-	background-color: var(--Eggshell);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-radius: 20px;
-	border: 1px solid var(--Dark-Smoke);
-}
-
-.form-card__head {
-	width: 100%;
-	height: 82px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.form-card__head h2 {
-	font-size: 28px;
-	text-align: center;
-	color: var(--Aztec-Gold);
-	line-height: 34px;
-}
-
-.form-card__body {
-	width: 100%;
-	height: 358px;
-}
-
-.form-card__body .form {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
-	height: 358px;
-}
-
-.form-inputs {
-	height: 41px;
-	width: 334px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-bottom: 8px;
-}
-
-.form-inputs label {
-	font-size: 16px;
-	color: var(--Sheldon-Blue);
-	line-height: 19px;
-	height: 19px;
-	width: 100%;
-}
-
-.form-inputs input {
-	height: 20px;
-	border: 1px solid var(--Dark-Smoke);
-	font-size: 14px;
-}
-
-.form-inputs input:focus {
-	background-color: var(--Medium-Spring-Bud);
-	border: none;
-}
-
-.form-button {
-	display: flex;
-	justify-content: flex-end;
-	width: 334px;
-	height: 24px;
-	margin-top: 16px;
-}
-
-.form-card__body .form .button {
-	width: 116px;
-	height: 24px;
-	line-height: 24px;
-	background-color: var(--Cadet-Blue);
-	border: none;
-	border-radius: 5px;
-	border: 1px solid var(--Dark-Smoke);
-	font-size: 16px;
-	color: white;
-	padding: 0px;
-}
-
 .o-main-area {
 	grid-area: main-area;
 	background-color: white;
@@ -157,7 +43,7 @@
 }
 .c-form__body {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 	height: 100%;
@@ -169,6 +55,7 @@
 	align-items: start;
 	flex-direction: column;
 	width: 100%;
+	margin-bottom: 1rem;
 }
 .c-form-input__label {
 	color: var(--Cadet-Blue);
@@ -180,6 +67,7 @@
 }
 
 .c-form-button {
+	margin: 1rem;
 	width: 100%;
 }
 .c-form-button__submit {
