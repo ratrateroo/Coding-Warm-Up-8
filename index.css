@@ -39,6 +39,7 @@ blockquote,
 dl,
 dd {
 	margin: 0;
+	padding: 0;
 }
 
 /* Set core body defaults */
@@ -48,6 +49,7 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
