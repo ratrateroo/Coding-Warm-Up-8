@@ -158,6 +158,8 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin: 1rem;
+	width: 100%;
 }
 
 .c-blog-comments__heading {
@@ -165,6 +167,20 @@
 	color: var(--Dark-Smoke);
 }
 
+.c-blog-comments__body {
+	width: 100%;
+}
+
 .c-comments-form__input-message {
-	width: 50rem;
+	width: 100%;
+}
+
+.c-comments-form__button {
+	display: flex;
+	justify-content: flex-end;
+}
+.c-comments-form__button-submit {
+	background-color: var(--Cadet-Blue);
+	color: white;
+	border: 1px solid var(--Dark-Smoke);
 }
