@@ -51,6 +51,7 @@
 	color: whitesmoke;
 	width: 20%;
 	text-align: center;
+	font-size: 0.9rem;
 }
 
 .c-blogs-table__row {
@@ -72,6 +73,9 @@
 	color: var(--Charlston-Green);
 	line-height: 2rem;
 	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 0.8rem;
 }
 
 .c-action-button {

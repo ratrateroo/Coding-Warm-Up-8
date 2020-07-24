@@ -56,21 +56,24 @@
 }
 
 .c-blog__body {
-	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	width: 100%;
 }
 
 .c-blog__content {
-	columns: 2;
 	text-align: justify;
 	font-size: 0.9rem;
 	line-height: 1.5rem;
 	text-indent: 1.5rem;
+	margin: 1rem;
 }
 
 .c-blog-details {
-	width: 100%;
-	margin-top: 2rem;
-	height: 10rem;
+	height: 8rem;
+	margin: 1rem;
 }
 
 .c-blog-details__date-created {
