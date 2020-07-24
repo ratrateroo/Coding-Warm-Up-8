@@ -48,6 +48,7 @@
 }
 
 .c-blog__author {
+	margin-top: 1rem;
 	text-align: center;
 	font-size: 1rem;
 	font-style: italic;
@@ -60,9 +61,10 @@
 
 .c-blog__content {
 	columns: 2;
-	width: 100%;
 	text-align: justify;
 	font-size: 0.9rem;
+	line-height: 1.5rem;
+	text-indent: 1.5rem;
 }
 
 .c-blog-details {
