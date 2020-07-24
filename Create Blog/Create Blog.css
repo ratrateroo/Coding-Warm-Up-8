@@ -1,0 +1,79 @@
+.o-main-area {
+	grid-area: main-area;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.o-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 80%;
+	margin: 2rem 0;
+}
+
+.o-page-heading {
+	margin-bottom: 1rem;
+}
+
+.o-page-body {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	height: 100%;
+	background-color: var(--Eggshell);
+	border: 1px solid var(--Dark-Smoke);
+}
+
+.c-page-heading {
+	color: var(--Cadet-Blue);
+}
+
+.c-form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.c-form__body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 30%;
+}
+.c-form-input {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.c-form-input__label {
+	color: var(--Cadet-Blue);
+	width: 100%;
+}
+.c-form-input__data {
+	height: 1.3rem;
+	width: 100%;
+}
+
+.c-form-button {
+	margin: 1rem;
+	width: 100%;
+}
+.c-form-button__submit {
+	width: 100%;
+	background-color: var(--Deep-Space-Sparcle);
+	border: none;
+	color: white;
+	height: 2rem;
+}
