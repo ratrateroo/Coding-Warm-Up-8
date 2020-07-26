@@ -51,4 +51,48 @@
 .c-navigation {
 	background-color: var(--English-Green);
 	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-main-navigation {
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+}
+
+.c-main-navigation__items {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
+
+.c-main-navigation__item {
+	margin-right: 1rem;
+}
+
+.c-user-navigation {
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+}
+
+.c-user-navigation__items {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.c-user-navigation__item {
+	margin-left: 1rem;
+}
+
+.c-main-navigation__link {
+	color: white;
+}
+.c-user-navigation__link {
+	color: white;
 }
