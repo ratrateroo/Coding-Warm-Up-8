@@ -15,8 +15,8 @@
 	--GrassyGreen: #849609;
 }
 
-.header {
-	background-color: var(--Teal);
+.o-header {
+	background-color: var(--English-Green);
 	height: 2rem;
 	grid-area: header;
 	width: 100vw;

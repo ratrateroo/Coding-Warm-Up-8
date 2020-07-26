@@ -47,3 +47,8 @@
 	font-size: 0.8rem;
 	font-weight: bold;
 }
+
+.c-navigation {
+	background-color: var(--English-Green);
+	width: 80%;
+}
