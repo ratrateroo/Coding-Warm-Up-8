@@ -88,4 +88,5 @@
 	height: 60px;
 	justify-content: space-between;
 	align-items: center;
+	color: var(--Dark-Smoke);
 }
