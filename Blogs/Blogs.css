@@ -79,6 +79,10 @@
 	object-position: center;
 }
 
+.c-post__image-pic:hover {
+	transform: scale(0.8);
+}
+
 .c-post__details {
 	display: flex;
 	flex-direction: column;
