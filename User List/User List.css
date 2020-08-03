@@ -62,10 +62,19 @@
 	height: 5rem;
 	width: 5rem;
 	border-radius: 50%;
-	background-image: url('../Images/ChloeAvatar.jpg');
+	/* background-image: url('../Images/ChloeAvatar.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center; */
+	background-color: red;
+	overflow: hidden;
+}
+
+.c-user__avatar-pic {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .c-user__info {
