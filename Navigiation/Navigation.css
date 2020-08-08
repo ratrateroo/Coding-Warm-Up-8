@@ -56,20 +56,20 @@
 	justify-content: space-between;
 }
 
-.c-main-navigation {
+.c-default-navigation {
 	height: 100%;
 	width: 50%;
 	overflow: hidden;
 }
 
-.c-main-navigation__items {
+.c-default-navigation__items {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
 }
 
-.c-main-navigation__item {
+.c-default-navigation__item {
 	margin-right: 1rem;
 }
 
@@ -90,7 +90,7 @@
 	margin-left: 1rem;
 }
 
-.c-main-navigation__link {
+.c-default-navigation__link {
 	color: white;
 }
 .c-user-navigation__link {
