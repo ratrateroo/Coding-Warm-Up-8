@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Component Developemnt for Blog Project</title>
+		<link rel="stylesheet" href="../index.css" />
+		<link rel="stylesheet" href="../Header/Header.css" />
+		<link rel="stylesheet" href="../Navigiation/Navigation.css" />
+		<link rel="stylesheet" href="../Footer/Footer.css" />
+		<link rel="stylesheet" href="Modal.css" />
+	</head>
+
+	<body>
+		<div id="root">
+			<header class="o-header">
+				<nav class="c-navigation">
+					<div class="c-default-navigation">
+						<ul class="c-default-navigation__items">
+							<li class="c-default-navigation__item">
+								<a
+									href="../Blogs/Blogs.html"
+									class="c-default-navigation__link"
+									>Blogs</a
+								>
+							</li>
+							<li class="c-default-navigation__">
+								<a
+									href="../User List/User List.html"
+									class="c-default-navigation__link"
+									>Users</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="c-user-navigation">
+						<ul class="c-user-navigation__items">
+							<li class="c-user-navigation__item">
+								<a
+									href="../Signup/Signup.html"
+									class="c-user-navigation__link"
+									>Signup</a
+								>
+							</li>
+							<li class="c-user-navigation__item">
+								<a
+									href="../Login/Login.html"
+									class="c-user-navigation__link"
+									>Login</a
+								>
+							</li>
+							<li class="c-user-navigation__item">
+								<a
+									href="../Blogs/Blogs.html"
+									class="c-user-navigation__link"
+									>Logout</a
+								>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<main class="o-main-area">
+				<section class="o-section-container">
+					<div class="o-page-heading">
+						<h1 class="c-page-heading">User Log In</h1>
+					</div>
+
+					<div class="o-page-body">
+						<div class="c-modal">
+							<header class="c-modal__header">
+								<h2 class="c-modal__title">Modal Header</h2>
+							</header>
+							<form>
+								<div class="c-modal__content">
+									<h3>Modal Content</h3>
+								</div>
+								<footer class="c-modal__footer">
+									<button>Click Here</button>
+								</footer>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<p>Welcome to the Blog</p>
+			</footer>
+		</div>
+	</body>
+</html>

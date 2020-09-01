@@ -1,0 +1,86 @@
+.o-main-area {
+	grid-area: main-area;
+	background-color: white;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.o-section-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 80%;
+	margin: 2rem 0;
+}
+
+.o-page-heading {
+	margin-bottom: 1rem;
+}
+
+.o-page-body {
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	height: 100%;
+	background-color: var(--Eggshell);
+	border: 1px solid var(--Dark-Smoke);
+}
+
+.c-page-heading {
+	color: var(--Cadet-Blue);
+}
+
+.c-modal {
+	z-index: 100;
+	position: fixed;
+	top: 22vh;
+	left: 20%;
+	width: 60%;
+	background: white;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	border-radius: 8px;
+}
+
+.c-modal__header {
+	width: 100%;
+	padding: 1rem 0.5rem;
+	background: var(--Cadet-Blue);
+	color: white;
+}
+
+.c-modal__title {
+	margin: 0.5rem;
+}
+
+.c-modal__content {
+	padding: 1rem 0.5rem;
+}
+
+.c-modal__footer {
+	padding: 1rem 0.5rem;
+}
+
+.c-modal-enter {
+	transform: translateY(-10rem);
+	opacity: 0;
+}
+
+.c-modal-enter-active {
+	transform: translateY(0);
+	opacity: 1;
+	transition: all 200ms;
+}
+
+.c-modal-exit {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.c-modal-exit-active {
+	transform: translateY(-10rem);
+	opacity: 0;
+	transition: all 200ms;
+}
