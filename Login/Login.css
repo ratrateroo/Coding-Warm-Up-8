@@ -66,6 +66,12 @@
 	width: 100%;
 }
 
+.c-form-input__data--invalid {
+	outline: 1px solid var(--Red-Wine);
+	height: 1.3rem;
+	width: 100%;
+}
+
 .c-form-button {
 	margin: 1rem;
 	width: 100%;
